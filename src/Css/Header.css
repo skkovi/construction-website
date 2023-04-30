@@ -1,67 +1,67 @@
 .Header {
+  z-index: 1;
   background-color: white;
-    height: 10vh;
-    width: 100%;
-    outline: 2px dashed red;
-    position: fixed;
-  }
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+}
 
 ul {
-    display: flex;
-    float: right;
-    padding-right: 25vh;
-    list-style: none;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom-color 0.2s ease;
-  }
+  display: flex;
+  float: right;
+  padding-right: 25vh;
+  list-style: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
 
 .ref-list {
-    padding-right: 50px;
-    padding-top: 25px;
-  }
+  padding-right: 50px;
+  padding-top: 25px;
+}
 
-  a {
-    text-decoration: none !important;
-  }
-  .nav-a {
-    font-weight: 800;
-    color: #605e5e;
-    font-size: 14px;
-    text-decoration: none;
-    text-underline-offset: 25px;
-    position: relative;
-  }
-  
-  .nav-a:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 100%;
-    height: 2px;
-    background-color: #605e5e;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
- .nav-a:hover:after {
-    opacity: 1;
-  }
+a {
+  text-decoration: none !important;
+}
 
-  .callNow {
-    color: white;
-    margin-top: 10px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    outline: 2px dashed red;
-    background-color: red;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-  }
+.nav-a {
+  font-weight: 800;
+  color: #605e5e;
+  font-size: 14px;
+  text-decoration: none;
+  text-underline-offset: 25px;
+  position: relative;
+}
+
+.nav-a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #605e5e;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.nav-a:hover:after {
+  opacity: 1;
+}
+
+.callNow {
+  color: white;
+  margin-top: 10px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #8b0000;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
 
 .morettiLogo {
   height: 100px;
