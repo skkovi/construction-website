@@ -38,6 +38,8 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='app-projects-box'>
+        </div>
     </div>
 
   );
