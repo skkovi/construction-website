@@ -19,9 +19,9 @@ function Contact() {
             <button className='sendEmailButton'>Send Email</button>
           </div>
           <div className='contactInfo'>
-            <h4 className='infoTextHeaders'>PHONE:<span className='contactInfoBlue'> 1 (914) 738-8722</span></h4>
-            <h4 className='infoTextHeaders'>EMAIL:<span className='contactInfoBlue'> patmorettigc@gmail.com</span></h4>
-            <h4 className='infoTextHeaders'>FAX:<span className='contactInfoBlue'> 1 (845) 878-3393</span></h4><br/>
+            <h4 className='infoTextHeaders'>PHONE:<span className='contactInfoGrayLarge'> 1 (914) 738-8722</span></h4>
+            <h4 className='infoTextHeaders'>EMAIL:<span className='contactInfoGrayLarge'> patmorettigc@gmail.com</span></h4>
+            <h4 className='infoTextHeaders'>FAX:<span className='contactInfoGrayLarge'> 1 (845) 878-3393</span></h4><br/>
             <h4 className='infoTextHeaders'>ADDRESS:</h4>
             <span className='contactInfoGray'>114 Buckingham Court</span><br/>
             <span className='contactInfoGray'>Pomona NY, 10970</span><br/><br/>
