@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/construction-website/static/css/main.d949da20.css",
-    "main.js": "/construction-website/static/js/main.68af58b6.js",
+    "main.js": "/construction-website/static/js/main.d5fd8c9e.js",
     "static/js/787.b6bd094b.chunk.js": "/construction-website/static/js/787.b6bd094b.chunk.js",
     "static/media/background.jpg": "/construction-website/static/media/background.a0c858cf844447438c79.jpg",
     "static/media/LA.jpg": "/construction-website/static/media/LA.a6dde383907243a53f70.jpg",
@@ -12,11 +12,11 @@
     "static/media/bathroom.webp": "/construction-website/static/media/bathroom.3124ee7ab893d41dad60.webp",
     "index.html": "/construction-website/index.html",
     "main.d949da20.css.map": "/construction-website/static/css/main.d949da20.css.map",
-    "main.68af58b6.js.map": "/construction-website/static/js/main.68af58b6.js.map",
+    "main.d5fd8c9e.js.map": "/construction-website/static/js/main.d5fd8c9e.js.map",
     "787.b6bd094b.chunk.js.map": "/construction-website/static/js/787.b6bd094b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d949da20.css",
-    "static/js/main.68af58b6.js"
+    "static/js/main.d5fd8c9e.js"
   ]
 }
