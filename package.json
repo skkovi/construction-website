@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "embla-carousel-autoplay": "^8.0.0-rc02",
     "embla-carousel-react": "^8.0.0-rc02",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.7.1",
     "react-dom": "^18.2.0",
@@ -43,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
