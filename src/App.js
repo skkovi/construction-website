@@ -39,6 +39,14 @@ function App() {
         </div>
       </div>
       <div className='app-projects-box'>
+        <div className='app-projects-textbox'>
+        <h2 className='app-projects-text'>My Projects</h2>
+        </div>
+        <div className='app-projects-flex'>
+        <div className='app-projects-flexbox'>Test </div>
+        <div className='app-projects-flexbox'> test</div>
+        <div className='app-projects-flexbox'> test</div>
+        </div>
         </div>
     </div>
 
