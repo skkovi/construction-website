@@ -1,19 +1,23 @@
 .Header {
+  position: fixed;
   z-index: 1;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
   background-color: white;
   height: 10vh;
   width: 100%;
-  position: fixed;
 }
 
-ul {
+.navButton {
   display: flex;
   float: right;
   padding-right: 25vh;
   list-style: none;
   border-bottom: 2px solid transparent;
   transition: border-bottom-color 0.2s ease;
+}
+
+.nav-section {
+
 }
 
 .ref-list {
