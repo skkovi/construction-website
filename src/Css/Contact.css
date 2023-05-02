@@ -29,11 +29,10 @@
   position: relative;
   flex-direction: column;
   width: 50%;
-  padding: 10px;
+  padding-left: 20px;
   bottom: 0;
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
 }
 
 input {
@@ -176,6 +175,16 @@ h4 {
 }
 
 .contactInfoGray {
+  color: #687078;
+  font-size: 18px;
+  font-family: gotham_bookregular;
+  font-weight: 400;
+}
+
+.contactInfoGrayMain {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #687078;
   font-size: 18px;
   font-family: gotham_bookregular;

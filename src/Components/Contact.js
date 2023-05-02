@@ -1,6 +1,6 @@
 import '../Css/Contact.css';
 import { Link } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { send } from 'emailjs-com';
 import checkmark from '../Images/checkmark.png'
 
@@ -12,7 +12,6 @@ function Contact() {
     lastName: '',
     email: '',
     message: '',
-    attachment: '',
     sentEmail: false
   });
 
@@ -24,13 +23,31 @@ function Contact() {
     }, 3000);
   };
 
+  useEffect(() => {
+    if (formData.name !== '' && formData.email !== '' && formData.message !== '' && emailSent === false) {
+      send(
+        'service_jxo8fhd',
+        'template_vxfclr3',
+        formData,
+        'J8hf-A9o0J11Pul1G'
+      )
+        .then((response) => {
+          handleOpenModal(true);
+          console.log('SUCCESS!', response.status, response.text);
+          setEmailSent(true);
+        })
+        .catch((err) => {
+          console.log('FAILED...', err);
+        });
+    }
+  }, [formData, emailSent]);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormData({
       name: e.target.elements.name.value,
       email: e.target.elements.email.value,
       message: e.target.elements.message.value,
-      attachment: e.target.elements.attachment.value,
     });
     if (emailSent === true) {
       return;
@@ -39,19 +56,6 @@ function Contact() {
       alert('Please fill out all fields');
       return;
     }
-    send(
-      'service_jxo8fhd',
-      'template_vxfclr3',
-      formData,
-      'J8hf-A9o0J11Pul1G'
-    )
-      .then((response) => {
-        handleOpenModal(true);
-        console.log('SUCCESS!', response.status, response.text);
-      })
-      .catch((err) => {
-        console.log('FAILED...', err);
-      });
   };
 
   return (
@@ -68,8 +72,8 @@ function Contact() {
       <div className='contact-centered-flex'>
         <div className='contact-text'>
           <h1 className='contact-header-text'>Contact Us</h1>
-          <span className='contactInfoGray'>Thank you for your interest in Jackson Design and Remodeling! The JDR team is available in person for a free design consultation. Call us at 858.348.5254 to schedule a private tour or free design consultation or fill out the form below.</span> <br /><br />
-          <span className='contactInfoGray'>Private tours of our 4,500 sq. ft. showroom are limited. We ask our guests to follow current health and safety protocols. We're looking forward to seeing you in person!</span>
+          <p className='contactInfoGrayMain'>Thank you for your interest in Jackson Design and Remodeling! The JDR team is available in person for a free design consultation. Call us at 858.348.5254 to schedule a private tour or free design consultation or fill out the form below.</p> <br />
+          <p className='contactInfoGrayMain'>Private tours of our 4,500 sq. ft. showroom are limited. We ask our guests to follow current health and safety protocols. We're looking forward to seeing you in person!</p>
         </div>
         <div className='bottomContainer'>
           <form onSubmit={handleSubmit} className="input-wrapper">
