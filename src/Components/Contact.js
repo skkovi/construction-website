@@ -76,7 +76,6 @@ function Contact() {
             <input type="text" name='name' className='name-field' placeholder="Name" />
             <input type="text" name='email' pattern='[a-z0-9]+@[a-z]+\.[a-z]{2,3}' className='email-field' placeholder="Email" />
             <input type="text" name='message' className='message-field' placeholder="Message" />
-            <input type="file" name="attachment" />
             <button type='submit' className='sendEmailButton'>Send Email</button>
           </form>
           <div className='contactInfo'>

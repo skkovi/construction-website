@@ -48,15 +48,15 @@ function App() {
         <div className='app-projects-flex'>
           <ul className='app-projects-cardbox'>
             <li className='app-projects-flexbox'>
-              <img class='cardImages' src={kitchen}/>
+              <img class='cardImages' src={kitchen} />
               <span className='app-projects-names'>KITCHENS</span>
             </li>
             <li className='app-projects-flexbox'>
-            <img class='cardImages' src={bathroom}/>
+              <img class='cardImages' src={bathroom} />
               <span className='app-projects-names'>BATHROOMS</span>
             </li>
             <li className='app-projects-flexbox'>
-            <img class='cardImages' src={kitchen}/>
+              <img class='cardImages' src={kitchen} />
               <span className='app-projects-names'>ADDITIONS</span>
             </li>
           </ul>
