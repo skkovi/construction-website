@@ -7,11 +7,15 @@ import bathroom from './Images/bathroom.webp'
 import addition from './Images/addition.webp'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
+import { motion } from 'framer-motion'
 
 function App() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({ delay: 4000 })])
   return (
-    <div className='app-container'>
+    <motion.div className='app-container'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }} >
       <div className='app-header-text'>
         <h2 className='homepageText'>Your Home <br /> Improvement Specialist</h2>
       </div>
@@ -43,7 +47,7 @@ function App() {
       </div>
       <div className='app-projects-box'>
         <div className='app-projects-textbox'>
-          <h2 className='app-projects-text'>My Projects</h2>
+          <h2 className='app-projects-text'>Our Products</h2>
         </div>
         <div className='app-projects-flex'>
           <ul className='app-projects-cardbox'>
@@ -56,13 +60,13 @@ function App() {
               <span className='app-projects-names'>BATHROOMS</span>
             </li>
             <li className='app-projects-flexbox'>
-              <img class='cardImages' src={kitchen} />
+              <img class='cardImages' src={addition} />
               <span className='app-projects-names'>ADDITIONS</span>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div >
 
   );
 }

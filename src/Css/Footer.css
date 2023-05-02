@@ -1,0 +1,33 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    z-index: 1;
+    background-color: #3f4041;
+}
+
+.footertext-container {
+    margin:25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-maintext {
+    text-align: left;
+    margin:0;
+    padding-bottom: 25px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #ebecec;
+    text-underline-offset: 10px;
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.contactInfoFooter {
+    color: #b6b6b6;
+    font-family: gotham_bookregular;
+    font-weight: 400;
+    font-size: 18px;
+  }

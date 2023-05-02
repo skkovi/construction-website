@@ -1,26 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Css/index.css';
-import App from './App';
-import Header from './Components/Header';
-import Company from './Components/Company';
-import Services from './Components/Services';
-import Portfolio from './Components/Portfolio';
-import Contact from './Components/Contact';
+import AnimatedRoutes from './Components/AnimatedRoutes';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Routes>
-      <Route path="/" element={<><Header /><App /></>} />
-      <Route path="/company" element={<><Header /><Company /></>} />
-      <Route path="/services" element={<><Header /><Services /></>} />
-      <Route path="/about" element={<><Header /><Portfolio /></>} />
-      <Route path="/contact" element={<><Header /><Contact /></>} />
-    </Routes>
+    <AnimatedRoutes />
   </BrowserRouter>
 );
 

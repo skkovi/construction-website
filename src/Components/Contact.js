@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { send } from 'emailjs-com';
 import checkmark from '../Images/checkmark.png'
+import { motion } from 'framer-motion'
 
 function Contact() {
   const [emailSent, setEmailSent] = useState(false);
@@ -59,7 +60,10 @@ function Contact() {
   };
 
   return (
-    <div className='contact-flexbox-container'>
+    <motion.div className='contact-flexbox-container'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}>
       {showPopup &&
         <div className='modalbackdrop'>
           <div className='success-popUp'>
@@ -95,7 +99,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div >
+    </motion.div >
   );
 }
 
