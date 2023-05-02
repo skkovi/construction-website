@@ -1,12 +1,11 @@
 import '../Css/Footer.css';
-import { Link } from 'react-router-dom';
 import moretti from '../Images/Moretti.png'
 
 function Footer() {
     return (
         <div className='footer-container'>
             <div className='footertext-container'>
-                <img src={moretti} />
+                <img src={moretti} alt='' />
             </div>
             <div className='footertext-container'>
                 <h2 className='footer-maintext'>CONTACT INFO</h2>

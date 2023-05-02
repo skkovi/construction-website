@@ -1,5 +1,4 @@
 import '../Css/Contact.css';
-import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { send } from 'emailjs-com';
 import checkmark from '../Images/checkmark.png'
@@ -67,7 +66,7 @@ function Contact() {
       {showPopup &&
         <div className='modalbackdrop'>
           <div className='success-popUp'>
-            <img className='checkmark' src={checkmark} />
+            <img className='checkmark' src={checkmark} alt='' />
             <h2>
               Email Sent!
             </h2>

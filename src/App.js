@@ -23,13 +23,13 @@ function App() {
         <div class="embla" ref={emblaRef}>
           <div class="embla__container">
             <div class="embla__slide">
-              <img src={nyc} />
+              <img src={nyc} alt='' />
             </div>
             <div class="embla__slide">
-              <img src={LA} />
+              <img src={LA} alt='' />
             </div>
             <div class="embla__slide">
-              <img src={seattle} />
+              <img src={seattle} alt='' />
             </div>
           </div>
         </div>
@@ -52,15 +52,15 @@ function App() {
         <div className='app-projects-flex'>
           <ul className='app-projects-cardbox'>
             <li className='app-projects-flexbox'>
-              <img class='cardImages' src={kitchen} />
+              <img class='cardImages' src={kitchen} alt='' />
               <span className='app-projects-names'>KITCHENS</span>
             </li>
             <li className='app-projects-flexbox'>
-              <img class='cardImages' src={bathroom} />
+              <img class='cardImages' src={bathroom} alt='' />
               <span className='app-projects-names'>BATHROOMS</span>
             </li>
             <li className='app-projects-flexbox'>
-              <img class='cardImages' src={addition} />
+              <img class='cardImages' src={addition} alt='' />
               <span className='app-projects-names'>ADDITIONS</span>
             </li>
           </ul>
