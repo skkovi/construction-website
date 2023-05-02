@@ -124,6 +124,7 @@
 }
 
 .app-projects-cardbox {
+  list-style: none;
   padding-top: 25px;
   display: flex;
   flex-wrap: wrap;

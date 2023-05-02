@@ -181,3 +181,35 @@ h4 {
   font-family: gotham_bookregular;
   font-weight: 400;
 }
+
+.modalbackdrop {
+  display: flex;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.2);
+}
+.success-popUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 100;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.checkmark {
+  width:100px;
+}
