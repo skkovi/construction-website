@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/construction-website/static/css/main.d949da20.css",
-    "main.js": "/construction-website/static/js/main.d5fd8c9e.js",
+    "main.css": "/construction-website/static/css/main.26f89664.css",
+    "main.js": "/construction-website/static/js/main.e60ae44f.js",
     "static/js/787.b6bd094b.chunk.js": "/construction-website/static/js/787.b6bd094b.chunk.js",
     "static/media/background.jpg": "/construction-website/static/media/background.a0c858cf844447438c79.jpg",
     "static/media/LA.jpg": "/construction-website/static/media/LA.a6dde383907243a53f70.jpg",
     "static/media/seattle.jpg": "/construction-website/static/media/seattle.10aefb22fe5d05d73b5f.jpg",
     "static/media/phoneIcon.png": "/construction-website/static/media/phoneIcon.b5f014f7163afc7d7359.png",
+    "static/media/checkmark.png": "/construction-website/static/media/checkmark.396d06b6049e77e85d4a.png",
     "static/media/addition.webp": "/construction-website/static/media/addition.2985826fe44f7776af99.webp",
     "static/media/kitchen.webp": "/construction-website/static/media/kitchen.40d5a36b53ba429552e6.webp",
     "static/media/bathroom.webp": "/construction-website/static/media/bathroom.3124ee7ab893d41dad60.webp",
     "index.html": "/construction-website/index.html",
-    "main.d949da20.css.map": "/construction-website/static/css/main.d949da20.css.map",
-    "main.d5fd8c9e.js.map": "/construction-website/static/js/main.d5fd8c9e.js.map",
+    "main.26f89664.css.map": "/construction-website/static/css/main.26f89664.css.map",
+    "main.e60ae44f.js.map": "/construction-website/static/js/main.e60ae44f.js.map",
     "787.b6bd094b.chunk.js.map": "/construction-website/static/js/787.b6bd094b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d949da20.css",
-    "static/js/main.d5fd8c9e.js"
+    "static/css/main.26f89664.css",
+    "static/js/main.e60ae44f.js"
   ]
 }
