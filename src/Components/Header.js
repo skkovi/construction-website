@@ -7,34 +7,34 @@ function Header() {
     <div className="Header">
       <div className='nav-section'>
         <Link to="/">
-          <img className='morettiLogo' src={moretti} />
+          <img className='morettiLogo' src={moretti} alt='' />
         </Link>
         <ul className='navButton'>
           <li className='ref-list'>
             <Link to="/">
-              <a className='nav-a'>Home</a>
+              <button className='nav-a'>Home</button>
             </Link>
           </li>
           <li className='ref-list'>
             <Link to="/services">
-              <a className='nav-a'>Services</a>
+              <button className='nav-a'>Services</button>
             </Link>
           </li>
           <li className='ref-list'>
             <Link to="/about">
-              <a className='nav-a'>Portfolio</a>
+              <button className='nav-a'>Portfolio</button>
             </Link>
           </li>
           <li className='ref-list'>
             <Link to="/contact">
-              <a className='nav-a'>Contact</a>
+              <button className='nav-a'>Contact</button>
             </Link>
           </li>
-          <div className='callNow'>
-            <img className='phoneIcon' src={phoneIcon} />
-            <span>1 (914) 738-8722</span>
-          </div>
         </ul>
+        <div className='callNow'>
+          <img className='phoneIcon' src={phoneIcon} alt='' />
+          <a className='callNowText' href='tel:+19147388722'>1 (914) 738-8722</a>
+        </div>
       </div>
     </div>
   );
