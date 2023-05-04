@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/construction-website/static/css/main.c11d9f36.css",
+    "main.css": "/construction-website/static/css/main.6727c031.css",
     "main.js": "/construction-website/static/js/main.f328580b.js",
     "static/js/787.b6bd094b.chunk.js": "/construction-website/static/js/787.b6bd094b.chunk.js",
     "static/media/background.jpg": "/construction-website/static/media/background.a0c858cf844447438c79.jpg",
@@ -16,12 +16,12 @@
     "static/media/kitchen.webp": "/construction-website/static/media/kitchen.40d5a36b53ba429552e6.webp",
     "static/media/bathroom.webp": "/construction-website/static/media/bathroom.3124ee7ab893d41dad60.webp",
     "index.html": "/construction-website/index.html",
-    "main.c11d9f36.css.map": "/construction-website/static/css/main.c11d9f36.css.map",
+    "main.6727c031.css.map": "/construction-website/static/css/main.6727c031.css.map",
     "main.f328580b.js.map": "/construction-website/static/js/main.f328580b.js.map",
     "787.b6bd094b.chunk.js.map": "/construction-website/static/js/787.b6bd094b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c11d9f36.css",
+    "static/css/main.6727c031.css",
     "static/js/main.f328580b.js"
   ]
 }
