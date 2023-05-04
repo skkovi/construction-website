@@ -37,7 +37,7 @@
 
 .embla__slide img {
 	border-radius: 10px;
-	width: 1000px;
+	width: 100%;
 	height: 500px;
 }
 
@@ -190,5 +190,8 @@
 @media screen and (max-width: 600px) {
 	.app-header-text {
 		margin-top: 70px;
+	}
+	.app-centered-flex {
+		width: 100%;
 	}
 }

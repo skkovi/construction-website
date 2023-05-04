@@ -1,224 +1,226 @@
 .contact-flexbox-container {
-  overflow: scroll;
-  flex-direction: column;
-  display: flex;
-  min-height: 100vh;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+	overflow: scroll;
+	flex-direction: column;
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 .contact-centered-flex {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  width: 1000px;
-  height: 700px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 1000px;
+	height: 700px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-
 .contact-text {
-  width: 100%;
-  height: 30%;
+	color: #b2022f;
+	width: 100%;
+	height: 30%;
 }
 
 .input-wrapper {
-  position: relative;
-  flex-direction: column;
-  width: 50%;
-  padding-left: 20px;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
+	position: relative;
+	flex-direction: column;
+	width: 50%;
+	padding-left: 20px;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
 }
 
 input {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #ebebeb;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease-out;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 4px;
+	background-color: #ebebeb;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease-out;
 }
 
 input:hover {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 input:focus {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 input:not(:focus):not(:placeholder-shown):invalid {
-  border: #b2022f solid 1px;
-  animation: shake 0.3s ease-in-out;
+	border: #b2022f solid 1px;
+	animation: shake 0.3s ease-in-out;
 }
 
 @keyframes shake {
-  0% {
-    transform: translateX(0);
-  }
+	0% {
+		transform: translateX(0);
+	}
 
-  20% {
-    transform: translateX(10px);
-  }
+	20% {
+		transform: translateX(10px);
+	}
 
-  40% {
-    transform: translateX(-10px);
-  }
+	40% {
+		transform: translateX(-10px);
+	}
 
-  60% {
-    transform: translateX(10px);
-  }
+	60% {
+		transform: translateX(10px);
+	}
 
-  80% {
-    transform: translateX(-10px);
-  }
+	80% {
+		transform: translateX(-10px);
+	}
 
-  100% {
-    transform: translateX(0);
-  }
+	100% {
+		transform: translateX(0);
+	}
 }
 
 .message-field {
-  padding-bottom: 75px;
+	padding-bottom: 75px;
 }
 
 .side-box {
-  position: relative;
+	position: relative;
 }
 
-
 .sendEmailButton {
-  align-items: center;
-  background-color: #ebebeb;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.85);
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: 200px;
+	align-items: center;
+	background-color: #ebebeb;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0.25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	box-sizing: border-box;
+	color: rgba(0, 0, 0, 0.85);
+	cursor: pointer;
+	display: inline-flex;
+	font-family: system-ui, -apple-system, system-ui, "Helvetica Neue",
+		Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	justify-content: center;
+	line-height: 1.25;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+	position: relative;
+	text-decoration: none;
+	transition: all 250ms;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: baseline;
+	width: 200px;
 }
 
 .sendEmailButton:hover,
 .sendEmailButton:focus {
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: rgba(0, 0, 0, 0.65);
+	border-color: rgba(0, 0, 0, 0.15);
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+	color: rgba(0, 0, 0, 0.65);
 }
 
 .sendEmailButton:hover {
-  transform: translateY(-1px);
+	transform: translateY(-1px);
 }
 
 .sendEmailButton:active {
-  background-color: #F0F0F1;
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
-  transform: translateY(0);
+	background-color: #f0f0f1;
+	border-color: rgba(0, 0, 0, 0.15);
+	box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+	color: rgba(0, 0, 0, 0.65);
+	transform: translateY(0);
 }
 
 .contact-header-text {
-  text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-align: center;
 }
 
 .bottomContainer {
-  padding-top: 75px;
-  display: flex;
-  justify-content: space-between;
+	padding-top: 75px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .contactInfo {
-  padding-left: 25px;
-  width: 50%;
-  text-align: left;
+	padding-left: 25px;
+	width: 50%;
+	text-align: left;
 }
 
 .infoTextHeaders {
-  font-size: 20px;
-  font-weight: bold;
-  font-weight: 600;
-  color: #b2022f
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: 600;
+	color: #b2022f;
 }
 
 h4 {
-  margin: 0px !important;
+	margin: 0px !important;
 }
 
 .contactInfoGrayLarge {
-  font-family: gotham_bookregular;
-  font-size: 20px;
-  font-weight: 500;
-  color: #687078;
+	font-family: gotham_bookregular;
+	font-size: 20px;
+	font-weight: 500;
+	color: #687078;
 }
 
 .contactInfoGray {
-  color: #687078;
-  font-size: 18px;
-  font-family: gotham_bookregular;
-  font-weight: 400;
+	color: #687078;
+	font-size: 18px;
+	font-family: gotham_bookregular;
+	font-weight: 400;
 }
 
 .contactInfoGrayMain {
-  margin: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #687078;
-  font-size: 18px;
-  font-family: gotham_bookregular;
-  font-weight: 400;
+	margin: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #687078;
+	font-size: 18px;
+	font-family: gotham_bookregular;
+	font-weight: 400;
 }
 
 .modalbackdrop {
-  display: flex;
-    position:fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-    background-color:rgba(0,0,0,0.2);
+	display: flex;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .success-popUp {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 10px;
-  z-index: 100;
-  width: 400px;
-  height: 300px;
-  position: absolute;
-  background-color: white;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	border-radius: 10px;
+	z-index: 100;
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .checkmark {
-  width:100px;
+	width: 100px;
 }

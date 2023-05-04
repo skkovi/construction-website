@@ -2,10 +2,14 @@ import '../Css/Services.css';
 import kitchen2 from '../Images/kitchen2.png'
 import paint from '../Images/paint.jpg'
 import plumbing from '../Images/plumbing.webp'
+import { motion } from 'framer-motion'
 
 function Services() {
   return (
-    <div className='services-container'>
+    <motion.div className='services-container'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }} >
       <div className='services-header'>
         <div className='services-descriptionContainer'>
           <div className='services-titleContainer'>
@@ -77,7 +81,7 @@ function Services() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
