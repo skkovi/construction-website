@@ -1,89 +1,107 @@
 .Header {
-display: flex;
-position: fixed;
-  z-index: 1;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
-  background-color: white;
-  height: 70px;
-  width: 100%;
-}
-
-.navButton {
-  height: fit-content;
-  display: inline-flex;
-  list-style: none;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom-color 0.2s ease;
+	display: flex;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+	background-color: white;
+	height: 70px;
+	width: 100%;
 }
 
 .nav-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.navButton {
+	display: flex;
+	margin-left: 300px;
+	list-style: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom-color 0.2s ease;
 }
 
 .ref-list {
-  padding-right: 50px;
-  padding-top: 25px;
+	padding-right: 50px;
+	padding-top: 25px;
 }
 
 a {
-  text-decoration: none !important;
+	text-decoration: none !important;
 }
 
 .nav-a {
-  background: none!important;
-  border: none;
-  font-weight: 800;
-  color: #605e5e;
-  font-size: 14px;
-  text-decoration: none;
-  text-underline-offset: 25px;
-  position: relative;
-  cursor: pointer;
+	background: none !important;
+	border: none;
+	font-weight: 800;
+	color: #605e5e;
+	font-size: 14px;
+	text-decoration: none;
+	text-underline-offset: 25px;
+	position: relative;
+	cursor: pointer;
 }
 
 .nav-a:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  width: 100%;
-  height: 2px;
-  background-color: #605e5e;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	width: 100%;
+	height: 2px;
+	background-color: #605e5e;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
 }
 
 .nav-a:hover:after {
-  opacity: 1;
+	opacity: 1;
 }
 
 .callNow {
-  color: white;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #8b0000;
-  width: 200px;
-  height: 50px;
-  border-radius: 10px;
+	color: white;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #8b0000;
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
 }
 
 .callNowText {
-  color: white;
-  font-weight: 800;
+	color: white;
+	font-weight: 800;
 }
 
 .morettiLogo {
-  margin-right: 550px;
-  height: 70px;
+	outline: 2px dashed red;
+	margin-top: 50px;
+	margin-right: 150px;
+	width: 300px;
+	height: 100px;
 }
 
 .phoneIcon {
-  width: 20px;
-  padding-right: 10px;
+	width: 20px;
+	padding-right: 10px;
+}
+
+.mobile-hamburger {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav-section {
+		display: none;
+	}
+	.mobile-hamburger {
+		outline: 2px dashed red;
+		display: block;
+		margin-left: auto;
+	}
 }

@@ -1,4 +1,7 @@
 import '../Css/Services.css';
+import kitchen2 from '../Images/kitchen2.png'
+import paint from '../Images/paint.jpg'
+import plumbing from '../Images/plumbing.webp'
 
 function Services() {
   return (
@@ -15,44 +18,61 @@ function Services() {
         </div>
         <div className='services-cardContainerLarge'>
           <div className='services-cards'>
+            <img className='services-images' src={kitchen2} alt='' />
+            <div className='services-cardsTextContainer'>
+              KITCHEN
+            </div>
+          </div>
+          <div className='services-cards'>
+            <img className='services-images' src={paint} alt='' />
+            <div className='services-cardsTextContainer'>
+              PAINTING
+            </div>
+          </div>
+          <div className='services-cards'>
+            <img className='services-images' src={plumbing} alt='' />
+            <div className='services-cardsTextContainer'>
+              PLUMBING
+            </div>
+          </div>
+          <div className='services-specific'>
+            <div className='services-textCards'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </div>
+            <div className='services-textCards'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </div>
+            <div className='services-textCards'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </div>
+          </div>
+          <div className='services-cards'>
+            <img className='services-images' src={kitchen2} alt='' />
             <div className='services-cardsTextContainer'>
               HELLO
             </div>
           </div>
           <div className='services-cards'>
+            <img className='services-images' src={kitchen2} alt='' />
             <div className='services-cardsTextContainer'>
               HELLO
             </div>
           </div>
           <div className='services-cards'>
+            <img className='services-images' src={kitchen2} alt='' />
             <div className='services-cardsTextContainer'>
               HELLO
             </div>
           </div>
           <div className='services-specific'>
             <div className='services-textCards'>
-              Test
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
             </div>
             <div className='services-textCards'>
-              Test
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
             </div>
             <div className='services-textCards'>
-              Test
-            </div>
-          </div>
-          <div className='services-cards'>
-            <div className='services-cardsTextContainer'>
-              HELLO
-            </div>
-          </div>
-          <div className='services-cards'>
-            <div className='services-cardsTextContainer'>
-              HELLO
-            </div>
-          </div>
-          <div className='services-cards'>
-            <div className='services-cardsTextContainer'>
-              HELLO
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
             </div>
           </div>
         </div>

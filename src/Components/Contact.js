@@ -80,8 +80,8 @@ function Contact() {
         </div>
         <div className='bottomContainer'>
           <form onSubmit={handleSubmit} className="input-wrapper">
-            <input type="text" name='name' className='name-field' placeholder="Name" />
-            <input type="text" name='email' pattern='[a-z0-9]+@[a-z]+\.[a-z]{2,3}' className='email-field' placeholder="Email" />
+            <input type="text" name='name' required pattern="[a-zA-Z]+" className='name-field' placeholder="Name" />
+            <input type="text" name='email' required pattern='[a-z0-9]+@[a-z]+\.[a-z]{2,3}' className='email-field' placeholder="Email" />
             <input type="text" name='message' className='message-field' placeholder="Message" />
             <button type='submit' className='sendEmailButton'>Send Email</button>
           </form>
