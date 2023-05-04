@@ -1,6 +1,12 @@
+#root {
+	width: 100%;
+}
+
 body {
+	display: flex;
 	margin: 0;
 	padding: 0;
+	position: absolute;
 	box-sizing: border-box;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -9,10 +15,6 @@ body {
 		"Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-:root {
-	display: flex;
-	height: 100vh;
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

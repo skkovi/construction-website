@@ -3,7 +3,7 @@
 	position: relative;
 	flex-direction: column;
 	min-height: 100vh;
-	width: 100%;
+	width: 100vw;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
@@ -22,7 +22,7 @@
 }
 .services-descriptionContainer {
 	margin-top: 200px;
-	height: 300px;
+	height: 25vh;
 	display: flex;
 	align-items: center;
 	align-content: center;
@@ -56,9 +56,10 @@
 }
 
 .services-description {
+	display: flex;
 	padding-left: 50px;
 	border-left: 2.5px #ebecec solid;
-	width: 700px;
+	width: 100%;
 }
 
 .services-descriptionText {
@@ -69,6 +70,7 @@
 }
 
 .services-cardContainerLarge {
+	outline: 2px dashed red;
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -128,4 +130,21 @@
 	flex-basis: calc(33.33% - 20px);
 	height: 300px;
 	width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+	.services-descriptionContainer {
+		width: 100%;
+	}
+	.services-titleContainer {
+		padding-right: 10px;
+	}
+	.services-cardContainerLarge {
+		outline: 2px dashed red;
+		margin-top: 100px;
+		display: flex;
+		gap: 15px;
+		height: 50vh;
+		width: 100vw;
+	}
 }

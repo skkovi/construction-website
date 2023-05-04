@@ -224,3 +224,27 @@ h4 {
 .checkmark {
 	width: 100px;
 }
+
+@media screen and (max-width: 600px) {
+	.contact-centered-flex {
+		width: 100vw;
+		height: 100vh;
+	}
+	.contactInfo {
+		width: 300px;
+		text-align: left;
+	}
+	.bottomContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.contactInfoGrayMain {
+		font-size: 16px;
+	}
+	.contactInfoGray {
+		font-size: 16px;
+	}
+	.contactInfoGrayLarge {
+		font-size: 16px;
+	}
+}
