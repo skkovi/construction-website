@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/construction-website/static/css/main.26f89664.css",
-    "main.js": "/construction-website/static/js/main.e60ae44f.js",
+    "main.css": "/construction-website/static/css/main.c11d9f36.css",
+    "main.js": "/construction-website/static/js/main.f328580b.js",
     "static/js/787.b6bd094b.chunk.js": "/construction-website/static/js/787.b6bd094b.chunk.js",
     "static/media/background.jpg": "/construction-website/static/media/background.a0c858cf844447438c79.jpg",
+    "static/media/homePageImage.jpg": "/construction-website/static/media/homePageImage.c0c039e92e92993194cd.jpg",
+    "static/media/kitchen2.png": "/construction-website/static/media/kitchen2.1d7327640c9401bd554e.png",
     "static/media/LA.jpg": "/construction-website/static/media/LA.a6dde383907243a53f70.jpg",
+    "static/media/paint.jpg": "/construction-website/static/media/paint.938ec07ccb65d418f52c.jpg",
+    "static/media/plumbing.webp": "/construction-website/static/media/plumbing.af4a6c78a053dbfd109e.webp",
     "static/media/seattle.jpg": "/construction-website/static/media/seattle.10aefb22fe5d05d73b5f.jpg",
     "static/media/phoneIcon.png": "/construction-website/static/media/phoneIcon.b5f014f7163afc7d7359.png",
     "static/media/checkmark.png": "/construction-website/static/media/checkmark.396d06b6049e77e85d4a.png",
@@ -12,12 +16,12 @@
     "static/media/kitchen.webp": "/construction-website/static/media/kitchen.40d5a36b53ba429552e6.webp",
     "static/media/bathroom.webp": "/construction-website/static/media/bathroom.3124ee7ab893d41dad60.webp",
     "index.html": "/construction-website/index.html",
-    "main.26f89664.css.map": "/construction-website/static/css/main.26f89664.css.map",
-    "main.e60ae44f.js.map": "/construction-website/static/js/main.e60ae44f.js.map",
+    "main.c11d9f36.css.map": "/construction-website/static/css/main.c11d9f36.css.map",
+    "main.f328580b.js.map": "/construction-website/static/js/main.f328580b.js.map",
     "787.b6bd094b.chunk.js.map": "/construction-website/static/js/787.b6bd094b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26f89664.css",
-    "static/js/main.e60ae44f.js"
+    "static/css/main.c11d9f36.css",
+    "static/js/main.f328580b.js"
   ]
 }
