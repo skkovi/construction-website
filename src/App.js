@@ -5,6 +5,7 @@ import seattle from './Images/seattle.jpg'
 import kitchen from './Images/kitchen.webp'
 import bathroom from './Images/bathroom.webp'
 import addition from './Images/addition.webp'
+import homePageImage from './Images/homePageImage.jpg'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import { motion } from 'framer-motion'
@@ -17,6 +18,7 @@ function App() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }} >
       <div className='app-header-text'>
+        <img className='mainPageImage' src={homePageImage} alt='' />
         <h2 className='homepageText'>Your Home <br /> Improvement Specialist</h2>
       </div>
       <div className='app-centered-flex'>
