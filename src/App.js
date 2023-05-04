@@ -35,13 +35,15 @@ function App() {
         </div>
       </div>
       <div className='app-welcome-box'>
-        <div className='app-welcome-textbox'>
-          <h4 className='app-welcome-text'>ABOUT</h4>
-          <h4 className='app-welcome-companyText'>Pat Moretti,<br /> inc.</h4>
-        </div>
-        <div className='app-welcome-descriptionbox'>
-          <div className='app-welcome-paragraphbox'>
-            <span className='app-welcome-description'>Pat Moretti, inc. Home Improvement Specialist, has been serving Westchester County, New York for over 25 years.</span>
+        <div className='app-welcome-boxSize'>
+          <div className='app-welcome-textbox'>
+            <h4 className='app-welcome-text'>ABOUT</h4>
+            <h4 className='app-welcome-companyText'>Pat Moretti,<br /> inc.</h4>
+          </div>
+          <div className='app-welcome-descriptionbox'>
+            <div className='app-welcome-paragraphbox'>
+              <span className='app-welcome-description'>Pat Moretti, inc. Home Improvement Specialist, has been serving Westchester County, New York for over 25 years.</span>
+            </div>
           </div>
         </div>
       </div>

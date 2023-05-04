@@ -79,7 +79,6 @@ a {
 }
 
 .morettiLogo {
-	outline: 2px dashed red;
 	margin-top: 50px;
 	margin-right: 150px;
 	width: 300px;
@@ -95,7 +94,35 @@ a {
 	display: none;
 }
 
-@media only screen and (max-width: 600px) {
+.mobile-menu {
+	background-color: white;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	padding-bottom: 10px;
+	width: 100%;
+	animation: mobilemenu 0.5s ease-in forwards;
+}
+
+.mobile-menuStyle {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.menuButtons {
+	background: none !important;
+	border: none;
+	font-weight: 800;
+	color: #605e5e;
+	font-size: 14px;
+	text-decoration: none;
+	text-underline-offset: 25px;
+	position: relative;
+	cursor: pointer;
+}
+@media screen and (max-width: 600px) {
 	.nav-section {
 		display: none;
 	}
@@ -103,5 +130,16 @@ a {
 		outline: 2px dashed red;
 		display: block;
 		margin-left: auto;
+	}
+}
+
+@keyframes mobilemenu {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(00%);
 	}
 }

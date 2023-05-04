@@ -1,172 +1,179 @@
 .app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
 }
 
 .app-header-text {
-  margin-top: 100px;
-  position: relative;
-  
+	margin-top: 100px;
+	position: relative;
 }
 
 .app-centered-flex {
-  margin: 30px;
-  background-color: white;
-  width: 1000px;
-  height: 500px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	margin: 30px;
+	background-color: white;
+	width: 1000px;
+	height: 500px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .embla {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .embla__container {
-  display: flex;
+	display: flex;
 }
 
 .embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
+	flex: 0 0 100%;
+	min-width: 0;
 }
 
 .embla__slide img {
-  border-radius: 10px;
-  width: 1000px;
-  height: 500px;
+	border-radius: 10px;
+	width: 1000px;
+	height: 500px;
 }
 
 .app-welcome-box {
-  
-  display: flex;
-  width: 1000px;
-  height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 200px;
+}
+.app-welcome-boxSize {
+	padding: 10px;
+	display: flex;
+	height: 100%;
+	width: 1000px;
 }
 
 .app-welcome-textbox {
-  width: 300px;
+	width: 300px;
 }
 
 .app-welcome-text {
-  font-size: 24px;
-  font-family: gotham_bookregular !important;
-  font-weight: 600;
-  color: #605e5e;
+	font-size: 24px;
+	font-family: gotham_bookregular !important;
+	font-weight: 600;
+	color: #605e5e;
 }
 
 .app-welcome-companyText {
-  font-family: gotham_lightregular !important;
-  margin-top: 0px;
-  color: #8b0000;
-  font-weight: 200;
-  font-size: 50px;
-  line-height: 52px;
+	font-family: gotham_lightregular !important;
+	margin-top: 0px;
+	color: #8b0000;
+	font-weight: 200;
+	font-size: 50px;
+	line-height: 52px;
 }
 
 .app-welcome-descriptionbox {
-  border-left: 2.5px #ebecec solid;
+	border-left: 2.5px #ebecec solid;
 }
 
 .app-welcome-description {
-  color: #687078;
-  font-size: 18px;
-  font-family: gotham_bookregular;
-  font-weight: 400;
+	color: #687078;
+	font-size: 18px;
+	font-family: gotham_bookregular;
+	font-weight: 400;
 }
 
 .app-welcome-paragraphbox {
-  padding: 10px;
+	padding: 10px;
 }
 
 .homepageText {
-  text-align: center;
-  font-size: 50px;
-  font-family: gotham_bookregular !important;
-  font-weight: 600;
-  color: #605e5e;
-  border-bottom: 2.5px #8b0000 solid;
+	text-align: center;
+	font-size: 50px;
+	font-family: gotham_bookregular !important;
+	font-weight: 600;
+	color: #605e5e;
+	border-bottom: 2.5px #8b0000 solid;
 }
 
 .app-projects-box {
-  display: flex;
-  margin-top: 30px;
-  flex-direction: column;
-  background-color: #f7f7f7;
-  width: 100%;
-  height: 50vh;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	flex-direction: column;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding-bottom: 50px;
 }
 
 .app-projects-textbox {
-  display: flex;
-  padding-bottom: 50px;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 100px;
+	display: flex;
+	padding-bottom: 10px;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100px;
 }
 
 .app-projects-text {
-  display: inline;
-  text-align: center;
-  font-size: 40px;
-  font-family: gotham_bookregular !important;
-  font-weight: 600;
-  color: #605e5e;
-  border-bottom: 2.5px #8b0000 solid;
+	display: inline;
+	text-align: center;
+	font-size: 40px;
+	font-family: gotham_bookregular !important;
+	font-weight: 600;
+	color: #605e5e;
+	border-bottom: 2.5px #8b0000 solid;
 }
 
 .app-projects-cardbox {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
 }
 
 .app-projects-flex {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 .app-projects-flexbox {
-  border-radius: 10px;
-  position: relative;
-  background-color: #444654;
-  height: 200px;
-  width: 300px;
+	border-radius: 10px;
+	position: relative;
+	background-color: #444654;
+	height: 200px;
+	width: 300px;
 }
 
 .app-projects-names {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  position: absolute;
-  height: 25px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #8b0000;
-  color: white;
-  text-align: center;
-  font-family: gotham_bookregular !important;
-  font-weight: 600;
-  font-size: 24px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: absolute;
+	height: 25px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #8b0000;
+	color: white;
+	text-align: center;
+	font-family: gotham_bookregular !important;
+	font-weight: 600;
+	font-size: 24px;
 }
 
 .cardImages {
-  border-radius: 10px;
-  width: 300px;
-  height: 200px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }

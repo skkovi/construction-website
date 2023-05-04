@@ -3,7 +3,14 @@ import { Link } from 'react-router-dom';
 import moretti from '../Images/Moretti.png'
 import phoneIcon from '../Images/phoneIcon.png'
 import hamburger from '../Images/hamburger.png'
+import React, { useState } from 'react';
+
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  }
   return (
     <div className="Header">
       <div className='nav-section'>
@@ -37,7 +44,25 @@ function Header() {
           <a className='callNowText' href='tel:+19147388722'>1 (914) 738-8722</a>
         </div>
       </div>
-      <img className='mobile-hamburger' src={hamburger} alt='' />
+      {isOpen && (
+        <div className='mobile-menu'>
+          <div className='mobile-menuStyle'>
+            <Link to="/">
+              <button className='menuButtons' onClick={toggleMenu}>Home</button>
+            </Link>
+            <Link to="/services">
+              <button className='menuButtons' onClick={toggleMenu}>Services</button>
+            </Link>
+            <Link to="/about">
+              <button className='menuButtons' onClick={toggleMenu}>Portfolio</button>
+            </Link>
+            <Link to="/contact">
+              <button className='menuButtons' onClick={toggleMenu}>Contact</button>
+            </Link>
+          </div>
+        </div>
+      )}
+      <img className='mobile-hamburger' onClick={toggleMenu} src={hamburger} alt='' />
     </div>
   );
 }
