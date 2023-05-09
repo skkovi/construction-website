@@ -49,10 +49,21 @@
 	height: 200px;
 }
 .app-welcome-boxSize {
+	outline: 2px dashed red;
 	padding: 10px;
 	display: flex;
 	height: 100%;
 	width: 1000px;
+	opacity: 0;
+	filter: blur(5px);
+	transform: translate(-100%);
+	transition: all 1s;
+}
+
+.animate-app-welcome-boxSize {
+	opacity: 1;
+	filter: blur(0);
+	transform: translate(0);
 }
 
 .app-welcome-textbox {
@@ -102,6 +113,16 @@
 	color: #ffffff;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	border-bottom: 2.5px #8b0000 solid;
+	opacity: 0;
+	filter: blur(5px);
+	transform: translate(-200%, -50%);
+	transition: all 1s;
+}
+
+.animateHomePageText {
+	opacity: 1;
+	filter: blur(0);
+	transform: translate(-50%, -50%);
 }
 .mainPageImage {
 	opacity: 0.8;
@@ -162,6 +183,27 @@
 	background-color: #444654;
 	height: 200px;
 	width: 300px;
+	opacity: 0;
+	filter: blur(5px);
+	transform: translate(-200%);
+	transition: all 1s;
+}
+
+.animate-app-projects-flexbox {
+	opacity: 1;
+	filter: blur(0);
+	transform: translate(0%);
+}
+
+.app-projects-flexbox:nth-child(1) {
+	transition-delay: 200ms;
+}
+
+.app-projects-flexbox:nth-child(2) {
+	transition-delay: 400ms;
+}
+.app-projects-flexbox:nth-child(3) {
+	transition-delay: 600ms;
 }
 
 .app-projects-names {

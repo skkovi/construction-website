@@ -9,8 +9,12 @@ import homePageImage from './Images/homePageImage.jpg'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer';
 
 function App() {
+  const { ref: headerRef, inView: headerView } = useInView();
+  const { ref: aboutRef, inView: aboutView } = useInView();
+  const { ref: cardRef, inView: cardView } = useInView();
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({ delay: 4000 })])
   return (
     <motion.div className='app-container'
@@ -19,7 +23,7 @@ function App() {
       exit={{ opacity: 0 }} >
       <div className='app-header-text'>
         <img className='mainPageImage' src={homePageImage} alt='' />
-        <h2 className='homepageText'>Your Home <br /> Improvement Specialist</h2>
+        <h2 ref={headerRef} className={`${'homepageText'} ${headerView ? 'animateHomePageText' : 'homepageText'}`}>Your Home <br /> Improvement Specialist</h2>
       </div>
       <div className='app-centered-flex'>
         <div class="embla" ref={emblaRef}>
@@ -37,7 +41,7 @@ function App() {
         </div>
       </div>
       <div className='app-welcome-box'>
-        <div className='app-welcome-boxSize'>
+        <div ref={aboutRef} className={`${'app-welcome-boxSize'} ${aboutView ? 'animate-app-welcome-boxSize' : ''}`}>
           <div className='app-welcome-textbox'>
             <h4 className='app-welcome-text'>ABOUT</h4>
             <h4 className='app-welcome-companyText'>Pat Moretti,<br /> inc.</h4>
@@ -54,16 +58,16 @@ function App() {
           <h2 className='app-projects-text'>Our Products</h2>
         </div>
         <div className='app-projects-flex'>
-          <ul className='app-projects-cardbox'>
-            <li className='app-projects-flexbox'>
+          <ul ref={cardRef} className='app-projects-cardbox'>
+            <li className={`${'app-projects-flexbox'} ${cardView ? 'animate-app-projects-flexbox' : ''}`}>
               <img class='cardImages' src={kitchen} alt='' />
               <span className='app-projects-names'>KITCHENS</span>
             </li>
-            <li className='app-projects-flexbox'>
+            <li className={`${'app-projects-flexbox'} ${cardView ? 'animate-app-projects-flexbox' : ''}`}>
               <img class='cardImages' src={bathroom} alt='' />
               <span className='app-projects-names'>BATHROOMS</span>
             </li>
-            <li className='app-projects-flexbox'>
+            <li className={`${'app-projects-flexbox'} ${cardView ? 'animate-app-projects-flexbox' : ''}`}>
               <img class='cardImages' src={addition} alt='' />
               <span className='app-projects-names'>ADDITIONS</span>
             </li>
