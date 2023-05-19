@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/construction-website/static/css/main.5b873888.css",
-    "main.js": "/construction-website/static/js/main.f328580b.js",
+    "main.css": "/construction-website/static/css/main.c716eafa.css",
+    "main.js": "/construction-website/static/js/main.95aa42b9.js",
     "static/js/787.b6bd094b.chunk.js": "/construction-website/static/js/787.b6bd094b.chunk.js",
     "static/media/background.jpg": "/construction-website/static/media/background.a0c858cf844447438c79.jpg",
     "static/media/homePageImage.jpg": "/construction-website/static/media/homePageImage.c0c039e92e92993194cd.jpg",
     "static/media/kitchen2.png": "/construction-website/static/media/kitchen2.1d7327640c9401bd554e.png",
     "static/media/LA.jpg": "/construction-website/static/media/LA.a6dde383907243a53f70.jpg",
+    "static/media/ContactUs.png": "/construction-website/static/media/ContactUs.a8c0cb3cf2cc0f50bf22.png",
     "static/media/paint.jpg": "/construction-website/static/media/paint.938ec07ccb65d418f52c.jpg",
     "static/media/plumbing.webp": "/construction-website/static/media/plumbing.af4a6c78a053dbfd109e.webp",
     "static/media/seattle.jpg": "/construction-website/static/media/seattle.10aefb22fe5d05d73b5f.jpg",
@@ -16,12 +17,12 @@
     "static/media/kitchen.webp": "/construction-website/static/media/kitchen.40d5a36b53ba429552e6.webp",
     "static/media/bathroom.webp": "/construction-website/static/media/bathroom.3124ee7ab893d41dad60.webp",
     "index.html": "/construction-website/index.html",
-    "main.5b873888.css.map": "/construction-website/static/css/main.5b873888.css.map",
-    "main.f328580b.js.map": "/construction-website/static/js/main.f328580b.js.map",
+    "main.c716eafa.css.map": "/construction-website/static/css/main.c716eafa.css.map",
+    "main.95aa42b9.js.map": "/construction-website/static/js/main.95aa42b9.js.map",
     "787.b6bd094b.chunk.js.map": "/construction-website/static/js/787.b6bd094b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b873888.css",
-    "static/js/main.f328580b.js"
+    "static/css/main.c716eafa.css",
+    "static/js/main.95aa42b9.js"
   ]
 }
