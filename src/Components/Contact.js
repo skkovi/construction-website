@@ -2,9 +2,12 @@ import '../Css/Contact.css';
 import React, { useState, useEffect } from 'react';
 import { send } from 'emailjs-com';
 import checkmark from '../Images/checkmark.png'
+import ContactUs from '../Images/ContactUs.png'
 import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer';
 
 function Contact() {
+  const { ref: headerRef, inView: headerView } = useInView();
   const [emailSent, setEmailSent] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [formData, setFormData] = useState({
@@ -72,9 +75,13 @@ function Contact() {
             </h2>
           </div>
         </div>}
+      <div className='contact-header'>
+        <h1 ref={headerRef} className={`${'contact-header-text'} ${headerView ? 'animate-header-text' : 'contact-header-text'}`}>Contact Us</h1>
+        <img className='supportBanner' src={ContactUs} alt='' />
+        </div>
       <div className='contact-centered-flex'>
         <div className='contact-text'>
-          <h1 className='contact-header-text'>Contact Us</h1>
+        <h1 className='contact-subheader-text '>Let's Start a Conversation</h1>
           <p className='contactInfoGrayMain'>Thank you for your interest in Jackson Design and Remodeling! The JDR team is available in person for a free design consultation. Call us at 858.348.5254 to schedule a private tour or free design consultation or fill out the form below.</p> <br />
           <p className='contactInfoGrayMain'>Private tours of our 4,500 sq. ft. showroom are limited. We ask our guests to follow current health and safety protocols. We're looking forward to seeing you in person!</p>
         </div>

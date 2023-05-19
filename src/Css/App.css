@@ -49,7 +49,6 @@
 	height: 200px;
 }
 .app-welcome-boxSize {
-	outline: 2px dashed red;
 	padding: 10px;
 	display: flex;
 	height: 100%;
