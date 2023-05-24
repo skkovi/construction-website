@@ -260,8 +260,13 @@ h4 {
 		width: 100vw;
 		height: 100vh;
 	}
+	.bottomContainer {
+		justify-content: center;
+		align-items: center;
+	}
 	.contactInfo {
 		width: 300px;
+		margin-left: 0px;
 		text-align: left;
 	}
 	.bottomContainer {
@@ -281,6 +286,8 @@ h4 {
 		margin-top: 15%;
 	}
 	.input-wrapper {
+		padding-left: 0;
+		padding-bottom: 20px;
 		width: 90%;
 	}
 }

@@ -78,11 +78,11 @@ function Contact() {
       <div className='contact-header'>
         <h1 ref={headerRef} className={`${'contact-header-text'} ${headerView ? 'animate-header-text' : 'contact-header-text'}`}>Contact Us</h1>
         <img className='supportBanner' src={ContactUs} alt='' />
-        </div>
+      </div>
       <div className='contact-centered-flex'>
         <div className='contact-text'>
-        <h1 className='contact-subheader-text '>Let's Start a Conversation</h1>
-          <p className='contactInfoGrayMain'>Thank you for your interest in Jackson Design and Remodeling! The JDR team is available in person for a free design consultation. Call us at 858.348.5254 to schedule a private tour or free design consultation or fill out the form below.</p> <br />
+          <h1 className='contact-subheader-text '>Let's Start a Conversation</h1>
+          <p className='contactInfoGrayMain'>Thank you for your interest in Pat Moretti General Contracting! The PMGC team is available in person for a free design consultation. Call us at 1 (914) 738-8722 to schedule a private tour or free design consultation or fill out the form below.</p> <br />
           <p className='contactInfoGrayMain'>Private tours of our 4,500 sq. ft. showroom are limited. We ask our guests to follow current health and safety protocols. We're looking forward to seeing you in person!</p>
         </div>
         <div className='bottomContainer'>
